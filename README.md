@@ -1,5 +1,6 @@
-# QashChain
+<center><img src="img/QashChain.png" width="250"></center>
 
+# QashChain
 ## quantum hash blockchain
 - uses the key derivation/hash algorithm from [qash-qkdc](https://github.com/TimeMelt/qash-qkdc)
 - this notebook is a demonstration of how blockchain and quantum hashing can integrate in a hybrid enviornment

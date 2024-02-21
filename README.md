@@ -1,0 +1,2 @@
+# qashchain
+quantum powered blockchain

@@ -1,4 +1,4 @@
-<center><img src="img/QashChain.png" width="250"></center>
+<p align='center'><img src="img/QashChain.png" width="250"></p>
 
 # QashChain
 ## quantum hash blockchain

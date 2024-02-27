@@ -28,20 +28,15 @@
 - please cite this project/repo if using it in research and/or development (USE IN RESEARCH/DEVELOPMENT IS ENCOURAGED)
 
 #### Credits:
-- quantum libraries provided by PennyLane: 
-    - [pennylane github](https://github.com/PennyLaneAI/pennylane)
+- quantum libraries provided by [PennyLane](https://github.com/PennyLaneAI/pennylane): 
     - [pennylane research paper](https://arxiv.org/abs/1811.04968): 
-        
-            Ville Bergholm et al. *PennyLane: Automatic differentiation of hybrid quantum-classical computations.* 2018. arXiv:1811.04968
-- accerlation through Jax library: 
-    - [jax github](https://github.com/google/jax)
-    - jax citation:
+    
+        > Ville Bergholm et al. *PennyLane: Automatic differentiation of hybrid quantum-classical computations.* 2018. arXiv:1811.04968
 
-            @software{
-                jax2018github,
-                author = {James Bradbury and Roy Frostig and Peter Hawkins and Matthew James Johnson and Chris Leary and Dougal Maclaurin and George Necula and Adam Paszke and Jake Vander{P}las and Skye Wanderman-{M}ilne and Qiao Zhang},
-                title = {{JAX}: composable transformations of {P}ython+{N}um{P}y programs},
-                url = {http://github.com/google/jax},
-                version = {0.3.13},
-                year = {2018},
-            }
+- accerlation through [JAX](https://github.com/google/jax) library: 
+    > jax2018github,
+    > author = {James Bradbury and Roy Frostig and Peter Hawkins and Matthew James Johnson and Chris Leary and Dougal Maclaurin and George Necula and Adam Paszke and Jake Vander{P}las and Skye Wanderman-{M}ilne and Qiao Zhang},
+    > title = {{JAX}: composable transformations of {P}ython+{N}um{P}y programs},
+    > url = {http://github.com/google/jax},
+    > version = {0.3.13},
+    > year = {2018},

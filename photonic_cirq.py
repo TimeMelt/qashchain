@@ -1,8 +1,8 @@
 import pennylane as qml
 import qkdc_photon as photon
 
-def qxBerryCirq(input, num_wires, pepper, device):
-    berry_device = qml.device(device, wires=num_wires, cutoff_dim=2)
+def qxBerryCirq(input, num_wires, pepper, device, shots=1):
+    berry_device = qml.device(device, wires=num_wires, cutoff_dim=2, shots=shots)
 
     @qml.qnode(berry_device, interface="jax")
     def cirq(input, pepper):

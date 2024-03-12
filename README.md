@@ -7,6 +7,23 @@
 - JAX is used for hardware acceleration
 - tested on python v3.11
 
+### Updates:
+- use of random nonce for each block in chain
+    - improved chain security
+    - pseudo-random numbers are fed into non-deterministic quantum circuit
+    - better randomness can be generated since non-deterministic circuit is used
+- new device support
+    - ibm/qiskit
+    - google/cirq
+- deterministic and non-determinstic circuit modes
+    - non-deterministic:
+        - allows truly random output (when NOT on simulator)
+        - shots=None or shots=0
+        - nonce is generated using this mode
+    - deterministic
+        - hashes are generated using this mode
+        - shots >= 1
+
 ### Notes:
 - this is a basic, publicly accessible implementation and may not cover all aspects of blockchain creation and deployment
     - does not handle consensus algorithm
